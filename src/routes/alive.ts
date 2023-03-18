@@ -5,7 +5,7 @@ const router = new Router({
 });
 
 router.get("/", (ctx) => {
-	ctx.body = JSON.stringify({ message: "Hey from koa ✋" });
+	ctx.body = JSON.stringify({ message: "Hey from koa2 ✋" });
 })
 
 

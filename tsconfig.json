@@ -7,7 +7,9 @@
     "strict": true, /* Enable all strict type-checking options. */
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
     "baseUrl": "./src",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "outDir": "./build"
-  }
+  },
+  "include": ["/**/*.ts"],
+  "exclude": ["node_modules"],
 }

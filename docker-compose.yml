@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  pdf-reader:
+    build: ./
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./src:/home/node/app/src"
+      - "./nodemon.json:/home/node/app/nodemon.json"
+    command: npm run dev
+    env_file: "./.env"
+    
