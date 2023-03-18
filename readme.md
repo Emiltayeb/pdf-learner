@@ -2,6 +2,7 @@
 This project aims to help you get a daily content from any pdf to learn.
 
 # Todd 
-- [ ] Markdown integrations
+- [ ] Markdown integrationsh
+
 - [ ] Content delivery options such as   whatsapp/telegram/email
 - [ ] Upload the container to aws with a daily lambda trigger 
